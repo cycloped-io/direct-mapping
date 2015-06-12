@@ -1,0 +1,39 @@
+GIT
+  remote: git://github.com/djstrong/progress.git
+  revision: 46b34854f62c5f96a116cd971cd6d6226796e35c
+  specs:
+    progress (3.0.0)
+
+PATH
+  remote: ../../../nlp/cycr
+  specs:
+    cycr (0.2.7)
+      ref (~> 1.0.0)
+
+GEM
+  remote: http://rubygems.org/
+  specs:
+    ebnf (0.3.9)
+      rdf (~> 1.1)
+      sxp (~> 0.1, >= 0.1.3)
+    iconv (1.0.4)
+    link_header (0.0.8)
+    rdf (1.1.13)
+      link_header (~> 0.0, >= 0.0.8)
+    rdf-turtle (1.1.7)
+      ebnf (~> 0.3, >= 0.3.6)
+      rdf (~> 1.1, >= 1.1.10)
+    ref (1.0.5)
+    slop (3.4.7)
+    sxp (0.1.5)
+
+PLATFORMS
+  ruby
+
+DEPENDENCIES
+  cycr!
+  iconv
+  progress!
+  rdf
+  rdf-turtle
+  slop (~> 3.4.7)
